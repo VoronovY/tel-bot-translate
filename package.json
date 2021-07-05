@@ -1,0 +1,31 @@
+{
+  "name": "first-tel-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoronovY/first-tel-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VoronovY/first-tel-bot/issues"
+  },
+  "homepage": "https://github.com/VoronovY/first-tel-bot#readme",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ibm-watson": "^6.1.1",
+    "node-telegram-bot-api": "^0.53.0"
+  }
+}
